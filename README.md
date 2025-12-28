@@ -8,14 +8,11 @@ Understanding customer behavior helps in targeted marketing and providing person
 
 The dataset is taken from Kaggle, consisting of customer demographic and purchasing behavior data, including age, annual income, and spending score. It is used for unsupervised learning to identify distinct customer segments.
 
-## **Rows:**
-200
+Rows: 200
 
-## **Features:** 
-Age, Annual Income, Spending Score.
+Features: Age, Annual Income, Spending Score.
 
-## **Target Variable:** 
-None (unsupervised)
+Target Variable: None (unsupervised)
 
 # **Tools:**
 
