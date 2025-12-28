@@ -8,11 +8,14 @@ Understanding customer behavior helps in targeted marketing and providing person
 
 The dataset is taken from Kaggle, consisting of customer demographic and purchasing behavior data, including age, annual income, and spending score. It is used for unsupervised learning to identify distinct customer segments.
 
-## **Rows:** 200
+## **Rows:**
+200
 
-## **Features:** Age, Annual Income, Spending Score.
+## **Features:** 
+Age, Annual Income, Spending Score.
 
-## **Target Variable:** None (unsupervised)
+## **Target Variable:** 
+None (unsupervised)
 
 # **Tools:**
 
@@ -29,7 +32,7 @@ Scikit Learn
 # **Approach and Methodology:** 
 
 - Cleaned the Data
-- 
+   
 ## **Data Visualisation:**
   
 - Visualised the data considering Annual Income, Age and Spending Score of the customers individually.
@@ -40,7 +43,7 @@ Scikit Learn
   
 ## **Univariate:**
 
--A K means model is created with one feature, Annual Income. (most correlation), by taking the k values in the range 1-10, and checking WCSS scores for each value of k.
+- A K means model is created with one feature, Annual Income. (most correlation), by taking the k values in the range 1-10, and checking WCSS scores for each value of k.
 
 - Now plotting the elbow plot (WCSS scores vs k values), gave us the k value for our case.
   
